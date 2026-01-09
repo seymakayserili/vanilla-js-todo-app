@@ -59,3 +59,7 @@ This project was created as a learning-focused mini project to strengthen my fun
 Şeyma Kayserili
 
 Feel free to ⭐ the repository if you find it useful!
+
+## 📸 Screenshot
+
+![Todo App Screenshot](todo-list-ss.png)
