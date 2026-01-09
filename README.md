@@ -19,20 +19,43 @@ This project focuses on core JavaScript concepts such as DOM manipulation, event
 
 ## 🛠️ Built With
 
-- 🌐 **HTML5**
-- 🎨 **CSS3**
-- ⚙️ **JavaScript (Vanilla)**
+- 🌐 HTML5  
+- 🎨 CSS3  
+- ⚙️ Vanilla JavaScript  
 
 ---
 
 ## 📚 What I Learned
 
-- DOM manipulation with JavaScript
-- Handling events (click, keydown, change)
-- Managing application state
-- Filtering data based on multiple conditions
-- Using LocalStorage for data persistence
-- Debugging a real-world issue (HTML–JS ID mismatch)
+- DOM manipulation with JavaScript  
+- Handling events (click, keydown, change)  
+- Managing application state  
+- Filtering data based on multiple conditions  
+- Using LocalStorage for data persistence  
+- Debugging a real-world issue (HTML–JavaScript ID mismatch)
+
+## 🔧 Possible Improvements
+
+✏️ Edit task feature
+
+🌙 Dark mode
+
+📱 Better mobile UX
+
+🧲 Drag & drop task sorting
+
+🌐 Backend integration
+
+##👤 Author
+
+Şeyma Kayserili
+
+Feel free to ⭐ the repository if you find it useful!
+
+## 📸 Screenshot
+
+![Todo List Screenshot](todo-list-ss.png)
+
 
 ---
 
@@ -41,25 +64,7 @@ This project focuses on core JavaScript concepts such as DOM manipulation, event
 ```text
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+└── todo-list-ss.png
+```
 
-🔧 Possible Improvements
-✏️ Edit task feature
-🌙 Dark mode
-📱 Better mobile UX
-🧲 Drag & drop task sorting
-🌐 Backend integration
-
-📌 Notes
-
-This project was created as a learning-focused mini project to strengthen my fundamentals in JavaScript before moving on to frameworks like React.
-
-👤 Author
-
-Şeyma Kayserili
-
-Feel free to ⭐ the repository if you find it useful!
-
-## 📸 Screenshot
-
-![Todo App Screenshot](todo-list-ss.png)
