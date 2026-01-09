@@ -46,7 +46,7 @@ This project focuses on core JavaScript concepts such as DOM manipulation, event
 
 🌐 Backend integration
 
-##👤 Author
+## 👤 Author
 
 Şeyma Kayserili
 
