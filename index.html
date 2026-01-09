@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>>Daily Task Board</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="todo-card">
+      <header>
+        <h1>>Daily Task Board</h1>
+        <p class="info">Add, categorize and track your tasks.</p>
+      </header>
+      <!-- form -->
+      <main>
+        <form>
+          <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Görev..." />
+            <button id="addBtn">Add Task</button>
+          </div>
+
+          <select id="categorySelect">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JavaScript</option>
+            <option value="Genel">General</option>
+          </select>
+        </form>
+
+        <div class="filters">
+          <button data-filter="all" class="active">All</button>
+          <button data-filter="active">Active</button>
+          <button data-filter="completed">Completed</button>
+        </div>
+
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JS">JavaScript</option>
+          <option value="Genel">General</option>
+        </select>
+
+      <ul id="taskList"></ul>
+ 
+
+        <div class="motivation">Start today, take small steps!</div>
+      </main>
+      <footer class="footer">
+        <small>Mini project • HTML + CSS + Vanilla JS</small>
+      </footer>
+    </div>
+
+     <script src="script.js"></script> 
+  </body>
+</html>
